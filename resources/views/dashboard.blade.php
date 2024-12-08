@@ -171,20 +171,8 @@
 
         <div class="content-page">
             <div class="content">
-
-                <!-- Start Content-->
-                <div class="container-fluid">
-
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="page-title-box">
-                                <h4 class="page-title">Dashboard</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- container -->
-                <div class="container">
+                <div class="container" style="margin-top:2%">
                     <div class="col">
                         <div class="card rounded-4">
                             <div class="card-body">
@@ -197,8 +185,8 @@
                                     <div class="card mb-3" style="max-width: 540px;" onclick="document.getElementById('flexRadioDefault1').click()">
                                         <div class="card-body">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                <label class="form-check-label" for="flexRadioDefault1" style="margin-top:2%">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" >
+                                                <label class="form-check-label" for="flexRadioDefault1" >
                                                     <h5 class="card-title fw-bold">Banco HSBC Tarjeta de crédito</h5>
                                                     <p class="card-text">
                                                         <strong>Importe:</strong> $ 1502,90<br>
@@ -212,7 +200,7 @@
                                     <div class="card mb-3" style="max-width: 540px;" onclick="document.getElementById('flexRadioDefault2').click()">
                                         <div class="card-body">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" style="margin-top:2%">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
                                                 <label class="form-check-label" for="flexRadioDefault2">
                                                     <h5 class="card-title fw-bold">Frávega</h5>
                                                     <p class="card-text">
@@ -227,7 +215,7 @@
                                     <div class="card mb-3" style="max-width: 540px;"  onclick="document.getElementById('flexRadioDefault3').click()">
                                         <div class="card-body">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" style="margin-top:2%">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" >
                                                 <label class="form-check-label" for="flexRadioDefault3">
                                                     <h5 class="card-title fw-bold">Swiss Medical</h5>
                                                     <p class="card-text">
