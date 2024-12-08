@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirigir la raíz del dominio al subdirectorio public de Laravel
+    RewriteCond %{HTTP_HOST} ^portalautogestion\.devcode\.com\.ar$ [NC]
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ /public/$1 [L,QSA]
+</IfModule>
+
